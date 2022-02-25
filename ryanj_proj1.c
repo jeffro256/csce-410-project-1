@@ -76,8 +76,6 @@ int consumer_loop(int id, mqd_t mqd) {
 			}
 		}
 
-		printf("---job---\n");
-
 		if (is_prime(job.data, 0)) {
 			printf("Found prime number: %lu\n", job.data);
 		}
