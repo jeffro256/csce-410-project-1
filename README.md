@@ -30,3 +30,8 @@ lets the consumer processes know when to finish.
         -n queue_name : set name of message queue (defaults to /ryanj_p1mq
         -r : remove queue from system, then exit
         -h : show this message, then exit
+
+## Files
+
+* is_prime.c & is_prime.h: Homemade Miller-Rabin primality test API for uint64_t
+* ryanj_proj1.c: Everything else. Consumer, Producer, and Forker process logic
